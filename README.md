@@ -4,25 +4,22 @@ This gem generate  source files needed for CMakeLists.txt
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'cmaker'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install cmaker
+Build and Install:
+    
+    $ git clone https://github.com/shiyj/cmaker.git
+    $ cd cmaker
+    $ gem build cmaker.gemspec
+    $ gem install cmaker-x.x.x.gem
 
 ## Usage
   
     $ cd /path/to/your/project
-    $ cmaker config
+    $ cmaker -c
+    $ vi conf.yaml
     $ cmaker
   
 you will get a cmakelists.txt /path/to/your/project.
+** You Must Edit the `conf.yaml` file By Hand BEFORE you execute `cmaker` **
 
 ## Contributing
 
