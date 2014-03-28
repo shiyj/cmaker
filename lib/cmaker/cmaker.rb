@@ -14,7 +14,6 @@ module CMaker
         File.open('conf.yaml','w') do |f|
           str = "project_name: demo\n" +
                 "include_dir: [lib]\n" +
-                "link_lib_dir: []\n" +
                 "library:\n" +
                 "  [\n" +
                 "    {name: geodemo,fold: [lib],link_lib_name: []}\n" +

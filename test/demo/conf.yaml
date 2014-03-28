@@ -1,6 +1,5 @@
 project_name: demo
 include_dir: [lib]
-link_lib_dir: []
 library:
   [
     {name: geodemo,fold: [lib],link_lib_name: []}
